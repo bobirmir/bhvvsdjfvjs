@@ -1,2 +1,0 @@
-# bhvvsdjfvjs
-website for training

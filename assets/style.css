@@ -272,3 +272,31 @@ footer{
   {
     box-shadow: -120px 120px  20px rgba(0, 0, 0, 0.25);
   }
+
+  /* Media adjucement */
+  @media screen and (max-width:1200px) {
+    #home-training {
+       width: 65%;
+       height: 1200px;
+       margin:auto 0;
+  }
+
+  #top {
+    padding: 30px 0;
+    margin: 0;
+  }
+  #left-of, #right-of{
+    width: 100%;
+    float: left;
+    padding: 0%;
+  }
+  #center-of{
+    width: 100%;
+    clear: all;
+    padding: 0;
+    float: left;
+  }
+  #hr{
+    display: none;
+  }
+}
