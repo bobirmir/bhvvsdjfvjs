@@ -22,6 +22,8 @@ h1, h2 {
 #logo {
     float: left;
     font-size: 350%;
+
+    margin-left: 50px;
 }
 
 /* navigation links */
@@ -48,4 +50,127 @@ h1, h2 {
 }
 .active{
     border-bottom: 1px solid #3a3a3a
+}
+#cover-text, #cover-text h2{
+    color: #fff;
+}
+/* project-outer zoom */
+#project-outer{
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+
+    position: relative;
+}
+/* project photo */
+#project-photo{
+    height: 600px;
+    width: 100%;
+    background: url('../assets/images/project\ photo.jpg') no-repeat center center;
+
+
+/* zoom affect */
+animation-name: project-zoom;
+animation-duration: 5s;
+animation-fill-mode: backwards;
+}
+
+/* creates project zoom level */
+@keyframes project-zoom{
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.2);
+    }
+}
+#cover-text{
+    font-size: 140%;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+
+    width: 300px;
+    height: 200px;
+
+    padding-top: 40px;
+    padding-left: 10px;
+
+    background-color: rgba(82, 39, 38, 0.7);
+
+    bottom: 30px;
+    right: 150px;
+
+    position: absolute;
+}
+
+/* home-training */
+
+#home-training{
+    height: 600px;
+}
+#home-training h1{
+    color: black;
+}
+#left-of{
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+    
+}
+#right-of{
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+
+}
+
+#center-of{
+    width: 33%;
+    margin: 0 auto;
+}
+hr{
+    border-top: 1px solid #3a3a3a;
+    width: 100%;
+    margin:5px 0;   
+}
+
+.left-of-top{
+    width: 60%;
+    float: right;
+    line-height: 20px;
+    clear: all;
+    margin-bottom: 50px;
+}
+.right-of-top{
+    width: 60%;
+    float: left;
+    line-height: 20px;
+    clear: all;
+    margin-bottom: 50px;
+}
+.right-of-top h2{
+    text-align: right;
+}
+.right-of-top p{
+    text-align: right;
+}
+#top{
+    text-align: center;
+    margin: 20px 0;
+    font-size: 250%;
+}
+#izzatillo{
+    width: 300px;
+    height: 500px;
+    padding: 30px;
+    border-style: solid;
+    border-color: rgb(25, 4, 4);
+    border-width: 1px;
+    border-radius: 70%;
+    margin: 0 auto;  
+}
+#bobirmirzo{
+    background: url('../assets/images/center.jpg') no-repeat center center;
+    height: 100%;
+    border-radius: 50%;
 }
