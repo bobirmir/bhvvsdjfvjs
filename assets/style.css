@@ -161,7 +161,7 @@ hr{
 }
 #izzatillo{
     width: 300px;
-    height: 500px;
+    height: 700px;
     padding: 30px;
     border-style: solid;
     border-color: rgb(25, 4, 4);
@@ -173,4 +173,22 @@ hr{
     background: url('../assets/images/center.jpg') no-repeat center center;
     height: 100%;
     border-radius: 50%;
+}
+footer{
+    height: 150px;
+}
+#down{
+    text-align: center;
+   bottom: auto 0;
+}
+#down > li{
+  display: inline;
+
+}
+#down i{
+    font-size: 150%;
+    margin: 1%;
+    padding: 5%;
+    color: grey;
+
 }
