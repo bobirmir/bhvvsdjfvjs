@@ -321,10 +321,10 @@ footer{
     margin: auto 0;
     font-size: 210%;
 }
-#first_name{
-    background: yellow;
-
+#first-name{
+    color:yellow;
 }
+
 .SignUp {
     margin: 150px 10% 0 0;
     color:#fff;
